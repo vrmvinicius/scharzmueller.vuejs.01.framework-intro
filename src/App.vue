@@ -1,7 +1,7 @@
 <template>
   <div id="app">
      <app-user></app-user>
-     <p>This is a test!</p>
+     <p>This isn't Italic now!</p>
   </div>
 </template>
 
