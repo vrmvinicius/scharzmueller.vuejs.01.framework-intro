@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-     <app-user></app-user>
+     <router-view></router-view>
+     <!-- <app-user></app-user> -->
      <p>This isn't Italic now!</p>
   </div>
 </template>
