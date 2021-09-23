@@ -14,7 +14,8 @@ const routes = [
 ];
 
 const router = new VueRouter({
-   routes: routes
+   routes: routes,
+   mode: 'history' //Now without a hashtag on the URL.
 });
 
 Vue.component('app-user', User); //It's a global component.
